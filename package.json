@@ -1,0 +1,34 @@
+{
+  "name": "bem-classes",
+  "version": "1.0.0",
+  "description": "A chainable helper for generating BEM-style classes in JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pedootz/bem-classes"
+  },
+  "keywords": [
+    "bem",
+    "react",
+    "classnames",
+    "classname",
+    "bemclasses",
+    "classes",
+    "util",
+    "utility",
+    "css",
+    "helper"
+  ],
+  "author": "Thomas Peduto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pedootz/bem-classes/issues"
+  },
+  "homepage": "https://github.com/Pedootz/bem-classes",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
