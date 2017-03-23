@@ -58,9 +58,20 @@ b('foo-bar')
 
 # Usage with React
 
+#### Header.jsx
+
 ```js
 import bem from 'bem-classes';
 
+// ...
+// Just mocking this loading prop
+this.props = {
+  loading: false
+};
+
+this.state = {
+  disabled: true
+};
 // ...
 
 render() {
@@ -83,6 +94,19 @@ render() {
     </header>
   );
 };
+```
+
+#### Renders
+
+```html
+<header class="header">
+  <a class="header__logo-link" href="#">
+    <img class="header__logo" src="img.png" />
+  </a>
+
+  <button type="button" class="header__button header__button--disabled">Log in</button
+</header>
+
 ```
 
 ## License
