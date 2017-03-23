@@ -76,10 +76,9 @@ this.state = {
 
 render() {
   const b = bem('header');
-  const { props, state } = this;
   const buttonClasses = b.e('button').m({
-    loading: props.loading,
-    disabled: state.disabled
+    loading: this.props.loading,
+    disabled: this.state.disabled
   }).classes();
 
   return (
